@@ -12,6 +12,7 @@ To set up the app follow these steps:
 On the command line, change the current directory to SimpleMail.
 
 Run the command 
+
 ```npm install```
 
 Change the email details specified in the file 'routes/index.js' to the appropriate values.
