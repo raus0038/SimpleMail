@@ -22,7 +22,7 @@ router.post('/', function(req, res){
    var msg = req.body.name + "\n Message: " + req.body.message;
    var mailOptions = {
     from: req.body.email,       // sender address
-    to: 'example@gmail.com', // list of receivers
+    to: 'example@gmail.com', // ENTER YOUR EMAIL HERE TO RECEIVE SENT EMAIL
     subject: req.body.subject,  // Subject line
     text: msg
   };
