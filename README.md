@@ -29,5 +29,5 @@ If you choose to use `nodemon start` to run your server, any changes to the view
 seen in your browser simply by typing in `rs` and then enter on the command line running the server.
 
 All css files within the `/public/stylesheets/modules` directory are concatenated together into a file `bundle.css`.
-Therefore any additional css files or changes to existing css files will only be included into the application if the command
-`gulp` is run from a command line whose current directory is the root of the application. The concatenated files are put together in the order they are in the directory, to change this refer to https://www.npmjs.com/package/gulp-concat.
+Therefore any additional css files or changes to existing css files will only be included into the application if they are inside the modules directory and the command
+`gulp` is run from a command line whose current directory is the root of the application. The concatenated files are put together in the order they are in the directory, to change this behaviour, please refer to https://www.npmjs.com/package/gulp-concat.
