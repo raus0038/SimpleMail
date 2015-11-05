@@ -25,7 +25,7 @@ Enter the form, click submit and enjoy a simple email sender.
 
 # Building
 
-If you choose to use `nodemon start` to run your server, any changes to the view files inside /views can be
+If you choose to use `nodemon start` to run your server, any changes to the application files (exceptions below) can be
 seen in your browser simply by typing in `rs` and then enter on the command line running the server.
 
 All css files within the `/public/stylesheets/modules` directory are concatenated together into a file `bundle.css`.
