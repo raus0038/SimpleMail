@@ -10,10 +10,14 @@ http://expressjs.com/
 To set up the app follow these steps:
 
 On the command line, change the current directory to SimpleMail.
+
 Run the command 
     npm install
 
 Change the email details specified in the file 'routes/index.js' to the appropriate values.
+
 Run the command nodemon start or npm start to start the server.
+
 On your browser, type http://localhost:3000 in the search bar.
+
 Enter the form, click submit and enjoy a simple email sender.
