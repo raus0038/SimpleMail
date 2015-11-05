@@ -17,8 +17,17 @@ Run the command
 
 Change the email details specified in the file `routes/index.js` to the appropriate values.
 
-Run the command nodemon start or npm start to start the server.
+Run the command `nodemon star`t or `npm start` to start the server.
 
 On your browser, type http://localhost:3000 in the search bar.
 
 Enter the form, click submit and enjoy a simple email sender.
+
+# Building
+
+If you choose to use `nodemon start` to run your server, any changes to the view files inside /views can be
+seen in your browser simply by typing in `rs` and then enter on the command line running the server.
+
+All css files within the `/public/stylesheets/modules` directory are concatenated together into a file `bundle.css`.
+Therefore any additional css files or changes to existing css files will only be included into the application if the command
+`gulp` is run from a command line whose current directory is the root of the application. The concatenated files are put together in the order they are in the directory, to change this refer to https://www.npmjs.com/package/gulp-concat.
