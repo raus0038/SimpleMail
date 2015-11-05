@@ -1,0 +1,97 @@
+/* ======== Beginning of Main Styles ========= */
+
+html,body {
+      height: 100%;
+  min-height: 100%;
+    position: relative;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d4d77+0,18345b+100 */
+  background: #1d4d77; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1d4d77 0%, #18345b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1d4d77), color-stop(100%,#18345b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #1d4d77 0%,#18345b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #1d4d77 0%,#18345b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #1d4d77 0%,#18345b 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #1d4d77 0%,#18345b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d4d77', endColorstr='#18345b',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-container {
+      height:100%;
+  min-height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-section {
+  width: 30%;
+  padding: 10px 0;
+  margin: 10px auto 0 auto;
+  background-color: rgb(240,240,240);
+  text-align: center;
+}
+
+.inputs {
+  padding: 10px 0;
+}
+
+.mail-input {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  border: none;
+}
+
+
+.submit-btn {
+  padding:10px;
+  border: 1px groove black;
+  background-color: rgb(163,197,220);
+  transition: background-color 1s, color 1s;
+  color: black;
+}
+
+.submit-btn:hover {
+  background-color: #DE2333;
+  color: white;
+}
+
+
+/* ====== Media Queries ====== */
+
+@media all and (max-width: 1200px) {
+  .form-section {
+    width: 60%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .form-section {
+    width: 100%;
+
+  }
+
+  .mail-input {
+    width: 80%;
+  }
+}
+
+
+@media all and (max-width: 400px) {
+  .mail-input {
+    width: 80%;
+  }
+}

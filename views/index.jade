@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.form-container
+    section.form-section
+      h1 Send Email
+      form(method="post" action="/")
+        input.mail-input.inputs(type="name" id="name" name="name" placeholder="  Name" required)
+        input.mail-input.inputs(type="email" id="email" name="email" placeholder="  Email" required)
+        input.mail-input.inputs(type="text" id="subject" name="subject" placeholder="  Subject" required)
+        textarea.mail-input(name="message" cols="35" rows="15" placeholder="  Enter your message..." required)
+        input.submit-btn(type="submit" value="Submit")
+
+      p #{successmsg}
