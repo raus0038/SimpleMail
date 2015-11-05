@@ -15,7 +15,7 @@ Run the command
 
 ```npm install```
 
-Change the email details specified in the file 'routes/index.js' to the appropriate values.
+Change the email details specified in the file `routes/index.js` to the appropriate values.
 
 Run the command nodemon start or npm start to start the server.
 
