@@ -17,7 +17,7 @@ Run the command
 
 Change the email details specified in the file `routes/index.js` to the appropriate values.
 
-Run the command `nodemon star`t or `npm start` to start the server.
+Run the command `nodemon start` or `npm start` to start the server.
 
 On your browser, type http://localhost:3000 in the search bar.
 
